@@ -1,0 +1,49 @@
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:active{
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #58D68D;
+  }
+
+#container{
+    position:flex;
+    padding: 20px;
+}
+#shout{
+   /* type:none ;  */
+   border:.5px grey solid;
+}
+#inp{
+    border-radius: 20px;
+    border: 1px solid #424949;
+    
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.shout{
+ background-color: rgba(121, 248, 195, 0.233);
+ border-radius:10px;
+ border: .5px rgba(121, 248, 195, 0.904) solid;
+ padding:5px;
+
+}
+#access{
+    position:relative;
+}
+#access li{
+    margin: 0 0 5px 0;
+}
