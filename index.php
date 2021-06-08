@@ -69,7 +69,7 @@
           <div class="col-md">
           <div class="form-floating">
 					<input type="text" id ="inp" class="form-control" placeholder="Jane Doe"required />
-          <label for="floatingInputGrid">Name</label></div></div>
+          <label for="floatingInputGrid">Name(optional)</label></div></div>
           <div class="col-md">
          <div class="form-floating">
           <input type="message" id ="inp" class="form-control" placeholder="enter message"required />

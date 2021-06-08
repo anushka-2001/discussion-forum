@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
 	$time = date('h:i:s a',time());
 	
 	//Validate input
-	if(!isset($user) || $user == '' || !isset($message) || $message == ''){
+	if( !isset($message) || $message == ''){
 		$error = "Please fill in your name and a message";
 		header("Location: index.php?error=".urlencode($error)); //redirects
 		exit();
